@@ -2,13 +2,19 @@
 title: "Rmd.test"
 author: "April Peterson"
 date: "6/14/2020"
-output:
-  html_document:
-    df_print: paged
+output: pdf_document
+keep_tex: yes
 ---
 
 ```{r setup, include=FALSE}
+library(tinytex)
+
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r debug, include=FALSE}
+options(tinytex.verbose = TRUE)
 ```
 
 ## R Markdown
