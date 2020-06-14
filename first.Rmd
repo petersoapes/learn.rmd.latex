@@ -14,6 +14,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+```{r global_options, include=FALSE}
+
+knitr::opts_chunk$set(fig.width = 12, fig.height = 8, fig.path = 'figures/', echo = TRUE, warning = FALSE, message = FALSE)
+
+```
+
+
+
 ```{r debug, include=FALSE}
 options(tinytex.verbose = TRUE)
 ```
